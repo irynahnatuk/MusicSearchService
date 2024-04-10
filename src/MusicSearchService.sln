@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicSearchService.Core", "MusicSearchService.Core\MusicSearchService.Core.csproj", "{473ADE46-6BC4-449F-998A-93F87E8043F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicSearchServise.Repositories", "MusicSearchServise.Repositories\MusicSearchServise.Repositories.csproj", "{5ADB8DB7-FDD4-4202-83CB-C3841C14F94D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicSearchService.WebUI", "MusicSearchService.WebUI\MusicSearchService.WebUI.csproj", "{DE63B79E-4CD5-4516-BAE6-60F12E8FD715}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{473ADE46-6BC4-449F-998A-93F87E8043F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{473ADE46-6BC4-449F-998A-93F87E8043F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{473ADE46-6BC4-449F-998A-93F87E8043F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{473ADE46-6BC4-449F-998A-93F87E8043F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ADB8DB7-FDD4-4202-83CB-C3841C14F94D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ADB8DB7-FDD4-4202-83CB-C3841C14F94D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ADB8DB7-FDD4-4202-83CB-C3841C14F94D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ADB8DB7-FDD4-4202-83CB-C3841C14F94D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE63B79E-4CD5-4516-BAE6-60F12E8FD715}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE63B79E-4CD5-4516-BAE6-60F12E8FD715}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE63B79E-4CD5-4516-BAE6-60F12E8FD715}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE63B79E-4CD5-4516-BAE6-60F12E8FD715}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

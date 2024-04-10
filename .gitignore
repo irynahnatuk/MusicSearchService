@@ -1,2 +1,5 @@
 
 src/.vs/
+
+bin/
+obj/
